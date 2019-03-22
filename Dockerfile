@@ -4,6 +4,7 @@ RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends \
     tinyproxy \
+    wget \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
