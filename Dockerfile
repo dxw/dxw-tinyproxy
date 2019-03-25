@@ -6,6 +6,7 @@ RUN apt-get update \
     tinyproxy \
     wget \
     ca-certificates \
+    curl \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
