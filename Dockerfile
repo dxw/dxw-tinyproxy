@@ -1,9 +1,9 @@
-FROM ubuntu:bionic
+FROM ubuntu:cosmic
 
 RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends \
-    tinyproxy \
+    tinyproxy-bin \
     wget \
     ca-certificates \
     curl \
